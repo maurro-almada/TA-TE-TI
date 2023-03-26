@@ -1,0 +1,51 @@
+body{
+	background: rgb(63,94,251);
+	background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+
+#game-board {
+	margin: auto;
+	margin-top: 7rem;
+	border-collapse: collapse;
+}
+#message, #reset,#winner {
+	margin-top: 1rem;
+	text-align: center;
+	font-size: 30px;
+}
+
+#game-board td {
+	width: 120px;
+	height: 120px;
+	border: 2.5px solid white;
+	text-align: center;
+	font-size: 72px;
+	cursor: pointer;
+}
+
+#game-board td:hover {
+	background-color: gainsboro;
+}
+
+#status {
+	margin-top: 20px;
+	font-size: 24px;
+}
+
+#reset {
+	font-size: 30px;
+	cursor: pointer;
+	background-color: aliceblue;
+	text-align: center;
+	width: 20%;
+	margin: auto;
+	margin-top: 30px;
+	border-radius: 10px;
+}
+
+.win{
+	background-color: black;
+}
+td{
+	color: white;
+}
